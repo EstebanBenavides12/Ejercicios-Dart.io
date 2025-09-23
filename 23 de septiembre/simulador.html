@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Elecciones Representante de Aprendices - CTPI</title>
+  <link rel="stylesheet" href="simulador.css" />
+</head>
+<body>
+  <header class="header">
+    <h1>Elecciones Representante de Aprendices - CTPI</h1>
+    <div id="status" class="status">Cargando...</div>
+  </header>
+
+  <main class="container">
+    <section id="controls" class="controls">
+      <!-- Botones iniciar/cerrar y login -->
+      <div id="admin-area">
+        <button id="btn-login" class="btn">Iniciar sesión Administrador</button>
+        <button id="btn-start" class="btn btn-green" disabled>Iniciar Elecciones</button>
+        <button id="btn-close" class="btn btn-red" disabled>Cerrar Elecciones</button>
+        <button id="btn-results" class="btn" disabled>Ver Resultados</button>
+      </div>
+    </section>
+
+    <section id="voting-area" class="voting-area">
+      <!-- Aquí se generarán los candidatos para votar -->
+    </section>
+
+    <section id="results-area" class="results-area hidden">
+      <h2>Resultados</h2>
+      <div id="results-list"></div>
+      <div class="results-footer">
+        <button id="btn-back-to-vote" class="btn">Volver a votar</button>
+        <button id="btn-reset" class="btn btn-danger">Reiniciar datos (solo demo)</button>
+      </div>
+    </section>
+  </main>
+
+  <!-- Modal simple para login de admin -->
+  <div id="modal" class="modal hidden">
+    <div class="modal-content">
+      <h3>Ingreso Administrador</h3>
+      <form id="admin-form">
+        <label>
+          Usuario
+          <input type="text" id="admin-username" required />
+        </label>
+        <label>
+          Contraseña
+          <input type="password" id="admin-password" required />
+        </label>
+        <div class="modal-actions">
+          <button type="submit" class="btn btn-green">Ingresar</button>
+          <button type="button" id="modal-cancel" class="btn">Cancelar</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <small>Datos de candidatos y administración consumidos desde las APIs indicadas en la actividad.</small>
+  </footer>
+
+  <script src="simulador.js"></script>
+</body>
+</html>

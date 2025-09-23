@@ -1,0 +1,27 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+.title {
+    color: #2e8b57;
+}
+
+.table-responsive {
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+#login-section, #app-section {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+footer {
+    color: #6c757d;
+    font-size: 0.9em;
+}

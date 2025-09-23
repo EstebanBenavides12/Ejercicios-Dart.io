@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "nombre": "Juan Pérez",
+    "programa": "Tecnólogo en ADSO",
+    "aprendiz": "123456789",
+    "ficha": "2878590",
+    "foto": "img/juan.jpg"
+  },
+  {
+    "id": 2,
+    "nombre": "Monik Rojas",
+    "programa": "Tecnología en Gestión Empresarial",
+    "aprendiz": "987654321",
+    "ficha": "2878591",
+    "foto": "img/monik.jpg"
+  },
+  {
+    "id": 3,
+    "nombre": "Carlos Gómez",
+    "programa": "Electricidad Industrial",
+    "aprendiz": "111222333",
+    "ficha": "2878592",
+    "foto": "img/carlos.jpg"
+  },
+  {
+    "id": "BLANCO",
+    "nombre": "Voto en Blanco",
+    "programa": "Opción neutral",
+    "aprendiz": "--------",
+    "ficha": "------",
+    "foto": "img/blanco.png"
+  }
+]
